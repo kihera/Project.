@@ -31,7 +31,7 @@ const Home = () => {
   if (loading) return <p>Loading...</p>;
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 slate-800">
       <h1 className="text-2xl font-bold mb-4">TODO List</h1>
       <ul className="space-y-2">
         {todos.map((todo) => (
